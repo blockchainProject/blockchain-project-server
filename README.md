@@ -1,14 +1,14 @@
-# OpenBazaar Server
+# GrabJob Server
 [![Build Status](https://travis-ci.org/OpenBazaar/OpenBazaar-Server.svg?branch=master)](https://travis-ci.org/OpenBazaar/OpenBazaar-Server) [![Coverage Status](https://coveralls.io/repos/OpenBazaar/OpenBazaar-Server/badge.svg?branch=master&service=github)](https://coveralls.io/github/OpenBazaar/OpenBazaar-Server?branch=master) [![Slack Status](https://openbazaar-slackin-drwasho.herokuapp.com/badge.svg)](https://openbazaar-slackin-drwasho.herokuapp.com)
 
-This repo contains the OpenBazaar networking daemon that can be used to access the p2p network. It establishes connections and maintains
+This repo contains the GrabJob networking daemon that can be used to access the p2p network. It establishes connections and maintains
 a Kademlia style DHT. Rest and websocket APIs are available for clients to communicate with the daemon.
 
 ## Install
 
 Pre-built installers which bundle the client and server components can be found [here](https://github.com/OpenBazaar/OpenBazaar-Installer/releases).
 
-Depending on your system configuration you may need to install some additional dependencies. You can find more detailed, OS specific, instructions [here](https://slack-files.com/T02FPGBKB-F0KJU1CLX-cbbcf8a02c).
+Depending on your system configuration you may need to install some additional dependencies. You can find more detailed, OS specific, instructions [here](https://github.com/blockchainProject/blockchain-project-client/wiki/How-to-Install-GrabJob-Manually).
 
 To install just this server:
 
@@ -25,7 +25,7 @@ python openbazaard.py start --help
 ```
 usage: python openbazaard.py start [<args>]
 
-Start the OpenBazaar server
+Start the GrabJob server
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -79,7 +79,3 @@ All relevant data will go to
 ```bash
 ./docker-compose.yml
 ```
-
-
-## License
-OpenBazaar Server is licensed under the [MIT License](LICENSE).
